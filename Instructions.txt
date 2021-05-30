@@ -1,0 +1,8 @@
+
+To test the app with the greeting controller
+http://localhost:8080/greeting?name=Test
+
+To test with curl
+curl localhost:8080/greeting
+curl "localhost:8080/greeting?name=test123"
+
