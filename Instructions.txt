@@ -1,8 +1,11 @@
 
-To test the app with the greeting controller
-http://localhost:8080/greeting?name=Test
+To test the app with the greeting controller - port from application.properties
+http://localhost:9000/greeting?name=Test
 
 To test with curl
-curl localhost:8080/greeting
-curl "localhost:8080/greeting?name=test123"
+curl localhost:9000/greeting
+curl "localhost:9000/greeting?name=test123"
 
+Actuator
+http://localhost:9001/actuator
+http://localhost:9001/actuator/health
